@@ -34,7 +34,8 @@ describe('getSlug defaults', () => {
 
   it('should remove trailing separator', () => {
     expect(getSlug('C\'est un beau titre qui ne laisse rien à désirer  ! ')).toBe(
-      'c-est-un-beau-titre-qui-ne-laisse-rien-a-desirer')
+      'c-est-un-beau-titre-qui-ne-laisse-rien-a-desirer',
+    )
   })
 
   it('should handle whitespace after symbol', () => {

@@ -1,5 +1,3 @@
-/* eslint-disable no-void */
-
 /**
  * escape Chars
  *
