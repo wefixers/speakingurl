@@ -31,13 +31,14 @@
     "release": "changelogen --release",
     "test": "vitest run",
     "typecheck": "tsc --noEmit",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^0.39.4",
-    "changelogen": "^0.5.3",
-    "eslint": "^8.42.0",
-    "typescript": "^5.1.6",
+    "@antfu/eslint-config": "^2.4.5",
+    "changelogen": "^0.5.5",
+    "eslint": "^8.55.0",
+    "typescript": "^5.3.3",
     "unbuild": "^1.2.1",
     "vitest": "^0.33.0"
   }
